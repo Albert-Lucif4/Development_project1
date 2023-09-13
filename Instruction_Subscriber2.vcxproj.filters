@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-4008-BF570000002E}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-4008-BF570000002E}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-4008-BF570000002E}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Idl Files">
+      <UniqueIdentifier>{2990FA4C-FECA-1BAD-4008-BF570000002E}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Idl And Typesupport Files">
+      <UniqueIdentifier>{9E235CA7-FECA-1BAD-4008-BF570000002E}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-4008-BF570000002E}</UniqueIdentifier>
+      <Extensions>i;ipp;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataReaderListenerImpl2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instructionC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instructionS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instructionTypeSupportC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instructionTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instructionTypeSupportS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subscriber2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataReaderListenerImpl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instructionC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instructionS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instructionTypeSupportC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instructionTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instructionTypeSupportS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="instruction.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="instructionTypeSupport.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="instruction.idl">
+      <Filter>Idl And Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="instructionC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="instructionTypeSupportC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

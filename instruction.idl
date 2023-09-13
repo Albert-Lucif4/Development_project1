@@ -1,0 +1,11 @@
+module instruction{
+
+  @topic
+  struct instruct {
+	string vehicle;
+	string action;
+	@key long id;
+	string dirction;
+	long distance;
+  };
+};

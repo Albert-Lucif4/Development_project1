@@ -1,0 +1,27 @@
+﻿  Invoking "D:\openDDS\OpenDDS-3.14\bin\opendds_idl and D:\openDDS\ACE_wrappers\bin\tao_idl on instruction.idl"
+  tao-idli_2c0c8i.cpp
+  TAO_IDL: warning, GPERF could not be executed
+  Perfect Hashing or Binary/Linear Search cannot be done without GPERF
+  Now, using Dynamic Hashing..
+  To use Perfect Hashing or Binary/Linear Search strategy
+  	-Build gperf at $ACE_ROOT/apps/gperf/src
+  	-Set the environment variable $ACE_ROOT appropriately or add $ACE_ROOT/bin to the PATH
+  	-Refer to Operation Lookup section in the TAO IDL User Guide ($TAO_ROOT/docs/compiler.html) for more details
+  tao-idli_kroQyk.cpp
+  Invoking "D:\openDDS\ACE_wrappers\bin\tao_idl on instructionTypeSupport.idl"
+  TAO_IDL: warning, GPERF could not be executed
+  Perfect Hashing or Binary/Linear Search cannot be done without GPERF
+  Now, using Dynamic Hashing..
+  To use Perfect Hashing or Binary/Linear Search strategy
+  	-Build gperf at $ACE_ROOT/apps/gperf/src
+  	-Set the environment variable $ACE_ROOT appropriately or add $ACE_ROOT/bin to the PATH
+  	-Refer to Operation Lookup section in the TAO IDL User Guide ($TAO_ROOT/docs/compiler.html) for more details
+  tao-idli_4HVAjl.cpp
+  instructionC.cpp
+  instructionS.cpp
+  instructionTypeSupportC.cpp
+  instructionTypeSupportImpl.cpp
+  instructionTypeSupportS.cpp
+  publisher.cpp
+  正在生成代码...
+  Instruction_Publisher.vcxproj -> D:\openDDS\first_test\.\publisher.exe
